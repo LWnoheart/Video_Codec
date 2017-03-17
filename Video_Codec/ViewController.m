@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "LWPlayer.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong)LWPlayer *player;
 @end
 
 @implementation ViewController
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.player = [[LWPlayer alloc]init];
 }
 
 
@@ -24,6 +26,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 
 @end

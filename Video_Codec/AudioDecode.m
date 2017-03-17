@@ -7,7 +7,7 @@
 //
 
 #import "AudioDecode.h"
-
+@import AudioToolbox;
 @implementation AudioDecode
 
 @end

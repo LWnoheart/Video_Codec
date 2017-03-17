@@ -7,7 +7,7 @@
 //
 
 #import "VideoDecode.h"
-
+@import VideoToolbox;
 @implementation VideoDecode
 
 @end
